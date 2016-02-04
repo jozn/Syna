@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@r/layout_top_bar" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-1" android:layout_height="-1" android:weightSum="4.0">
+    <ImageButton android:id="@r/btn_top_undo" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" android:src="@r/icon_menu_undo" android:layout_weight="1.0" />
+    <ImageButton android:id="@r/btn_top_redo" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" android:src="@r/icon_menu_redo" android:layout_weight="1.0" />
+    <org.catrobat.paintroid.ui.button.ColorButton android:id="@r/btn_top_color" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+        <ImageButton android:id="@r/btn_top_toolswitch" android:layout_width="-2" android:layout_height="-2" android:src="@r/icon_menu_brush" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

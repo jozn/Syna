@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="50" android:orientation="1" android:id="@r/colorchooser_base_layout" android:padding="16dp" android:layout_width="-1" android:layout_height="400dp">
+    <org.catrobat.paintroid.dialog.colorpicker.ColorPickerView android:id="@r/view_colorpicker" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:gravity="50" android:orientation="1" android:id="@r/layout_colorbuttons" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16dp">
+        <org.catrobat.paintroid.dialog.colorpicker.CheckeredTransparentLinearLayout android:id="@r/colorchooser_ok_button_base_layout" android:background="0x106000c" android:layout_width="-1" android:layout_height="48dp" android:layout_marginTop="16dp">
+            <Button android:textSize="14sp" android:textColor="@r/color_chooser_white" android:gravity="11" android:id="@r/btn_colorchooser_ok" android:background="0x106000d" android:layout_width="-1" android:layout_height="48dp" android:text="@r/done" />
+        </org.catrobat.paintroid.dialog.colorpicker.CheckeredTransparentLinearLayout>
+    </LinearLayout>
+</LinearLayout>

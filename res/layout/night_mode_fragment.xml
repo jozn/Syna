@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="0x7f080051" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:orientation="1" app:id="0x7f0b01bc" app:background="0x7f08004a" app:padding="15dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="10dp" app:onClick="onNightModeSelect">
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="0x7f08004f" app:paddingRight="0x7f090036" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0c0354" app:layout_toLeftOf="0x7f0b01bd" app:layout_alignParentLeft="true" />
+            <CheckBox app:id="0x7f0b01bd" app:clickable="false" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <com.devspark.robototextview.widget.RobotoTextView app:textColor="0x7f080048" app:id="0x7f0b01be" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0c0355" />
+    </LinearLayout>
+    <RelativeLayout app:id="0x7f0b01bf" app:background="0x7f08004a" app:padding="15dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="10dp" app:onClick="onFromTime">
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="0x7f08004f" app:layout_width="-2" app:layout_height="-2" app:text="0x7f0c0356" app:layout_alignParentLeft="true" />
+        <com.devspark.robototextview.widget.RobotoTextView app:textColor="0x7f080046" app:id="0x7f0b01c0" app:layout_width="-2" app:layout_height="-2" app:text="22:00" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout app:id="0x7f0b01c1" app:background="0x7f08004a" app:padding="15dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="10dp" app:onClick="onToTime">
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="0x7f08004f" app:layout_width="-2" app:layout_height="-2" app:text="0x7f0c0358" app:layout_alignParentLeft="true" />
+        <com.devspark.robototextview.widget.RobotoTextView app:textColor="0x7f080046" app:id="0x7f0b01c2" app:layout_width="-2" app:layout_height="-2" app:text="08:00" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

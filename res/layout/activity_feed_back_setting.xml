@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x7f080051" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="1" app:id="0x7f0b009c" app:layout_width="-1" app:layout_height="-1" app:layout_above="0x7f0b009d">
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="@r/text_color" app:id="0x7f0b009e" app:padding="10dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f090036" app:layout_marginTop="0x7f090036" app:layout_marginRight="0x7f090036" app:text="Dear Test" app:typeface="4" />
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b009f" app:padding="10dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f090036" app:layout_marginRight="0x7f090036" app:layout_marginBottom="0x7f090036" app:text="0x7f0c036a" app:typeface="4" />
+            <EditText app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b00a0" app:background="0x7f020395" app:padding="15dp" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f090036" app:layout_marginRight="0x7f090036" app:layout_marginBottom="0x7f090036" app:hint="0x7f0c036b" />
+            <EditText app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b00a1" app:background="0x7f020395" app:padding="15dp" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f090036" app:layout_marginTop="0x7f090036" app:layout_marginRight="0x7f090036" app:layout_marginBottom="0x7f090036" app:hint="0x7f0c036d" />
+            <EditText app:textSize="0x7f090022" app:textColor="@r/text_color" app:gravity="30" app:layout_gravity="30" app:id="0x7f0b00a2" app:background="0x7f020395" app:padding="15dp" app:layout_width="-1" app:layout_height="150dp" app:layout_marginLeft="0x7f090036" app:layout_marginTop="0x7f090036" app:layout_marginRight="0x7f090036" app:layout_marginBottom="0x7f090036" app:hint="0x7f0c036c" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:id="0x7f0b00b2" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+        <LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+            <ImageView app:id="0x7f0b0086" app:paddingLeft="10dp" app:paddingTop="10dp" app:paddingRight="10dp" app:layout_width="-1" app:layout_height="-2" app:src="0x7f020376" app:scaleType="1" />
+            <View app:layout_width="-1" app:layout_height="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

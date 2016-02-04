@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:textSize="0x7f090021" app:id="0x7f0b0140" app:padding="10dp" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:text="Time" />
+    <RelativeLayout app:id="0x7f0b0141" app:layout_width="-1" app:layout_height="-2">
+        <TimePicker app:id="0x7f0b0142" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true" style="0x7f0d00a0" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="0" app:id="0x7f0b0143" app:layout_width="-1" app:layout_height="-2">
+        <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:gravity="11" app:background="0x7f0203da" app:layout_width="-1" app:layout_height="-2" app:text="@string/no" app:layout_weight="1.0" app:typeface="4" />
+        <View app:background="0x7f080054" app:layout_width="1px" app:layout_height="-1" />
+        <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:gravity="11" app:background="0x7f0203da" app:layout_width="-1" app:layout_height="-2" app:text="@string/yes" app:layout_weight="1.0" app:typeface="4" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@r/linearlayout1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textStyle="1" android:textColor="@r/dialog_subtitle" android:id="@r/stroke_width_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24dp" android:layout_marginTop="28dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:text="@r/dialog_brush_width_text" android:textAllCaps="true" />
+    <View android:background="@r/dialog_subtitle_border" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:weightSum="5.0">
+        <SeekBar android:layout_gravity="11" android:id="@r/stroke_width_seek_bar" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="5dp" android:max="100" android:minHeight="30dp" android:layout_weight="4.0" />
+        <TextView android:textSize="14sp" android:textStyle="1" android:textColor="@r/holo_blue_bright" android:layout_gravity="11" android:id="@r/stroke_width_width_text" android:layout_width="0dp" android:layout_height="-1" android:layout_marginTop="16dp" android:layout_weight="4.0" />
+    </LinearLayout>
+    <TextView android:textStyle="1" android:textColor="@r/dialog_subtitle" android:id="@r/stroke_width_shape_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:text="@r/dialog_shape_text" android:textAllCaps="true" />
+    <View android:background="@r/dialog_subtitle_border" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+    <RadioGroup android:layout_gravity="11" android:orientation="0" android:id="@r/stroke_rbtn" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="10dp" android:layout_marginBottom="15dp">
+        <RadioButton android:id="@r/stroke_rbtn_rect" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="5dp" />
+        <ImageButton android:id="@r/stroke_ibtn_rect" android:background="@color/transparent" android:layout_width="-2" android:layout_height="-1" android:layout_marginRight="20dp" android:src="@r/square" android:minWidth="32dp" android:minHeight="32dp" />
+        <RadioButton android:id="@r/stroke_rbtn_circle" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="20dp" android:layout_marginRight="5dp" android:checked="true" />
+        <ImageButton android:id="@r/stroke_ibtn_circle" android:background="@color/transparent" android:layout_width="-2" android:layout_height="-1" android:src="@r/circle" android:minWidth="32dp" android:minHeight="32dp" />
+    </RadioGroup>
+</LinearLayout>

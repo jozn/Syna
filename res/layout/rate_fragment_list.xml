@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout autofit:orientation="1" autofit:background="0x7f08004a" autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_margin="10dp">
+    <LinearLayout autofit:orientation="1" autofit:id="0x7f0b01d5" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_marginLeft="5dp" autofit:layout_marginTop="5dp" autofit:layout_marginRight="5dp" autofit:layout_marginBottom="5dp"
+        <LinearLayout autofit:orientation="0" autofit:id="0x7f0b01d6" autofit:paddingLeft="10dp" autofit:paddingTop="5dp" autofit:paddingRight="10dp" autofit:paddingBottom="2.5dp" autofit:layout_width="-1" autofit:layout_height="-2">
+            <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090028" autofit:textColor="@r/text_color" autofit:gravity="3" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c02fd" autofit:singleLine="true" autofit:layout_weight="1.1" autofit:typeface="8" />
+            <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090028" autofit:textColor="@r/text_color" autofit:gravity="3" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c02fe" autofit:singleLine="true" autofit:layout_weight="1.6" autofit:typeface="8" />
+            <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090028" autofit:textColor="@r/text_color" autofit:gravity="3" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c0311" autofit:singleLine="true" autofit:layout_weight="1.6" autofit:typeface="8" />
+        </LinearLayout>
+        <View autofit:background="0x7f080054" autofit:layout_width="-1" autofit:layout_height="1.5dp" autofit:layout_marginLeft="5dp" autofit:layout_marginRight="5dp" />
+        <ListView autofit:id="0x7f0b01d7" autofit:background="@color/transparent" autofit:paddingLeft="7.5dp" autofit:paddingTop="5dp" autofit:paddingRight="7.5dp" autofit:paddingBottom="3dp" autofit:layout_width="-1" autofit:layout_height="-2" autofit:listSelector="0x7f0203da" autofit:cacheColorHint="#00000000" autofit:divider="0x7f080054" autofit:dividerHeight="1px" autofit:fastScrollEnabled="true" />
+    </LinearLayout>
+</RelativeLayout>

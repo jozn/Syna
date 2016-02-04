@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f0b018f" android:padding="10dp" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-1">
+    <com.edmodo.cropper.CropImageView custom:id="0x7f0b0190" custom:layout_width="-1" custom:layout_height="-1" custom:scaleType="1" custom:adjustViewBounds="true" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TabHost android:id="@r/colorview_tabColors" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:padding="2dp" android:layout_width="-1" android:layout_height="-1">
+            <TabWidget android:id="0x1020013" android:layout_width="-1" android:layout_height="-2" />
+            <FrameLayout android:id="0x1020011" android:layout_width="-1" android:layout_height="-1" />
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

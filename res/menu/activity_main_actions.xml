@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x7f020168" android:id="0x7f0b020d" android:title="0x7f0c02af" android:showAsAction="1" />
+    <item android:icon="0x7f0201fe" android:id="0x7f0b020e" android:title="0x7f0c02b0" android:showAsAction="1" />
+    <item android:icon="0x7f020185" android:id="0x7f0b020f" android:title="0x7f0c02b4" android:showAsAction="1" />
+    <item android:icon="0x7f0201fc" android:id="0x7f0b0210" android:title="0x7f0c02b5" android:showAsAction="1" />
+    <item android:icon="0x7f0201b6" android:id="0x7f0b0211" android:title="0x7f0c0347" android:showAsAction="1" />
+    <item android:icon="0x7f02017d" android:id="0x7f0b0212" android:title="0x7f0c02b8" android:showAsAction="1" />
+    <item android:icon="0x7f020206" android:id="0x7f0b0213" android:title="0x7f0c02b9" android:showAsAction="1" />
+    <item android:icon="0x7f0201de" android:id="0x7f0b0214" android:title="0x7f0c02b6" android:showAsAction="2" />
+</menu>

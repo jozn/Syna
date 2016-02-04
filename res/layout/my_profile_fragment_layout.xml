@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="0x7f0b00b2" android:background="0x7f08004a" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+        <ImageView android:id="0x7f0b00cd" android:layout_width="-1" android:layout_height="-2" android:src="0x7f0200f3" android:scaleType="1" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="0" android:background="#a0a0a0" android:layout_width="-1" android:layout_height="32dp">
+            <ImageButton android:id="0x7f0b01b8" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="-2" android:src="0x7f020189" android:layout_weight="1.0" android:onClick="onImageTransaction" android:contentDescription="Select an image from gallery" />
+            <ImageButton android:id="0x7f0b01b9" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="-2" android:src="0x7f0201a0" android:layout_weight="1.0" android:onClick="onImageTransaction" android:contentDescription="Take image" />
+            <ImageButton android:id="0x7f0b01ba" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="-2" android:src="0x7f020199" android:layout_weight="1.0" android:onClick="onImageTransaction" android:contentDescription="Remove image" />
+        </LinearLayout>
+        <include layout="0x7f03007f" />
+    </LinearLayout>
+</ScrollView>

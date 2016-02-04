@@ -1,0 +1,86 @@
+package org.jivesoftware.smackx.filetransfer;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+import org.jivesoftware.smack.SmackException;
+import org.jivesoftware.smack.SmackException.NoResponseException;
+import org.jivesoftware.smack.SmackException.NotConnectedException;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.XMPPException.XMPPErrorException;
+import org.jivesoftware.smack.packet.IQ;
+import org.jivesoftware.smack.packet.IQ.Type;
+import org.jivesoftware.smack.packet.Stanza;
+import org.jivesoftware.smack.util.EventManger;
+import org.jivesoftware.smack.util.EventManger.C0185a;
+import org.jivesoftware.smackx.si.packet.StreamInitiation;
+import org.jivesoftware.smackx.xdata.FormField;
+import org.jivesoftware.smackx.xdata.packet.DataForm;
+
+public abstract class StreamNegotiator {
+    protected static final EventManger<String, IQ, NotConnectedException> initationSetEvents;
+
+    /* renamed from: org.jivesoftware.smackx.filetransfer.StreamNegotiator.1 */
+    class C02281 implements C0185a<NotConnectedException> {
+        final /* synthetic */ XMPPConnection val$connection;
+        final /* synthetic */ StreamInitiation val$response;
+
+        C02281(XMPPConnection xMPPConnection, StreamInitiation streamInitiation) {
+            this.val$connection = xMPPConnection;
+            this.val$response = streamInitiation;
+        }
+
+        public void action() throws NotConnectedException {
+            this.val$connection.sendStanza(this.val$response);
+        }
+    }
+
+    static {
+        initationSetEvents = new EventManger();
+    }
+
+    protected static StreamInitiation createInitiationAccept(StreamInitiation streamInitiation, String[] strArr) {
+        StreamInitiation streamInitiation2 = new StreamInitiation();
+        streamInitiation2.setTo(streamInitiation.getFrom());
+        streamInitiation2.setFrom(streamInitiation.getTo());
+        streamInitiation2.setType(Type.result);
+        streamInitiation2.setStanzaId(streamInitiation.getStanzaId());
+        DataForm dataForm = new DataForm(DataForm.Type.submit);
+        FormField formField = new FormField("stream-method");
+        for (String addValue : strArr) {
+            formField.addValue(addValue);
+        }
+        dataForm.addField(formField);
+        streamInitiation2.setFeatureNegotiationForm(dataForm);
+        return streamInitiation2;
+    }
+
+    public static void signal(String str, IQ iq) {
+        initationSetEvents.signalEvent(str, iq);
+    }
+
+    public abstract InputStream createIncomingStream(StreamInitiation streamInitiation) throws XMPPErrorException, InterruptedException, NoResponseException, SmackException;
+
+    public abstract OutputStream createOutgoingStream(String str, String str2, String str3) throws XMPPErrorException, NoResponseException, SmackException, XMPPException;
+
+    public abstract String[] getNamespaces();
+
+    protected final IQ initiateIncomingStream(XMPPConnection xMPPConnection, StreamInitiation streamInitiation) throws NoResponseException, XMPPErrorException, NotConnectedException {
+        StreamInitiation createInitiationAccept = createInitiationAccept(streamInitiation, getNamespaces());
+        newStreamInitiation(streamInitiation.getFrom(), streamInitiation.getSessionID());
+        try {
+            IQ iq = (IQ) initationSetEvents.performActionAndWaitForEvent(streamInitiation.getFrom().toString() + '\t' + streamInitiation.getSessionID(), xMPPConnection.getPacketReplyTimeout(), new C02281(xMPPConnection, createInitiationAccept));
+            if (iq == null) {
+                throw NoResponseException.newWith(xMPPConnection);
+            }
+            XMPPErrorException.ifHasErrorThenThrow(iq);
+            return iq;
+        } catch (Throwable e) {
+            throw new IllegalStateException(e);
+        }
+    }
+
+    abstract InputStream negotiateIncomingStream(Stanza stanza) throws XMPPErrorException, InterruptedException, NoResponseException, SmackException;
+
+    protected abstract void newStreamInitiation(String str, String str2);
+}

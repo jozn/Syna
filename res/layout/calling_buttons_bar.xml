@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout glowpad:gravity="1" glowpad:orientation="1" glowpad:layout_width="-1" glowpad:layout_height="-2">
+    <RelativeLayout glowpad:id="0x7f0b00c4" glowpad:visibility="2" glowpad:layout_width="-1" glowpad:layout_height="@dimen/glowpadview_height" glowpad:layout_marginBottom="0dp">
+        <com.fima.glowpadview.GlowPadView glowpad:gravity="11" glowpad:layout_gravity="10" glowpad:id="0x7f0b00c5" glowpad:focusable="true" glowpad:layout_width="-1" glowpad:layout_height="-1" glowpad:layout_marginBottom="@dimen/glowpadview_margin_bottom" glowpad:layout_alignParentBottom="true" glowpad:layout_centerHorizontal="true" glowpad:targetDrawables="0x7f0e0004" glowpad:targetDescriptions="0x7f0e0005" glowpad:directionDescriptions="0x7f0e0006" glowpad:handleDrawable="0x7f020222" glowpad:outerRingDrawable="0x7f020221" glowpad:pointDrawable="0x7f020236" glowpad:innerRadius="@dimen/glowpadview_inner_radius" glowpad:outerRadius="@dimen/glowpadview_target_placement_radius" glowpad:glowRadius="@dimen/glowpadview_glow_radius" glowpad:vibrationDuration="20" glowpad:snapMargin="@dimen/glowpadview_snap_margin" glowpad:feedbackCount="1" />
+    </RelativeLayout>
+    <LinearLayout glowpad:id="0x7f0b00c6" glowpad:visibility="2" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_marginBottom="30dp">
+        <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00c7" glowpad:background="0x7f0200fa" glowpad:padding="10dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0" glowpad:onClick="onAcceptCall">
+            <LinearLayout glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_centerInParent="true">
+                <ImageView glowpad:id="0x7f0b00c8" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_marginRight="5dp" glowpad:src="0x7f02019d" />
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08004a" glowpad:gravity="1" glowpad:paddingTop="5dp" glowpad:paddingBottom="5dp" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="Accept" glowpad:singleLine="true" glowpad:typeface="6" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View glowpad:layout_width="10dp" glowpad:layout_height="10dp" />
+        <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00c9" glowpad:background="0x7f020100" glowpad:padding="10dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0" glowpad:onClick="onEndCall">
+            <LinearLayout glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_centerInParent="true">
+                <ImageView glowpad:id="0x7f0b00ca" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_marginRight="5dp" glowpad:src="0x7f0201a5" />
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08004a" glowpad:gravity="1" glowpad:paddingTop="5dp" glowpad:paddingBottom="5dp" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="Reject" glowpad:singleLine="true" glowpad:typeface="6" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout glowpad:orientation="1" glowpad:id="0x7f0b00cb" glowpad:visibility="0" glowpad:layout_width="-1" glowpad:layout_height="-2"
+        <LinearLayout glowpad:orientation="0" glowpad:layout_width="-2" glowpad:layout_height="-1" glowpad:layout_weight="1.0">
+            <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00cc" glowpad:background="0x7f020104" glowpad:padding="5dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0">
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08006e" glowpad:gravity="1" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="0x7f0c02f9" glowpad:singleLine="true" glowpad:layout_below="0x7f0b00cd" glowpad:layout_centerVertical="true" glowpad:typeface="12" />
+                <ImageView glowpad:id="0x7f0b00cd" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:src="0x7f020241" glowpad:layout_alignParentTop="true" glowpad:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00ce" glowpad:background="0x7f020104" glowpad:padding="5dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0">
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08006e" glowpad:gravity="1" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="0x7f0c02fa" glowpad:singleLine="true" glowpad:layout_below="0x7f0b00cf" glowpad:layout_centerVertical="true" glowpad:typeface="12" />
+                <ImageView glowpad:id="0x7f0b00cf" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:src="0x7f02024e" glowpad:layout_alignParentTop="true" glowpad:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00d0" glowpad:background="0x7f020104" glowpad:padding="5dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0">
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08006e" glowpad:gravity="1" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="0x7f0c02fb" glowpad:singleLine="true" glowpad:layout_below="0x7f0b00d1" glowpad:layout_centerVertical="true" glowpad:typeface="12" />
+                <ImageView glowpad:id="0x7f0b00d1" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:src="0x7f020238" glowpad:layout_alignParentTop="true" glowpad:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout glowpad:gravity="10" glowpad:id="0x7f0b00d2" glowpad:background="0x7f020100" glowpad:padding="10dp" glowpad:clickable="true" glowpad:layout_width="-1" glowpad:layout_height="0dp" glowpad:layout_margin="2.5dp" glowpad:layout_weight="1.0" glowpad:onClick="onEndCall">
+            <LinearLayout glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_centerInParent="true">
+                <ImageView glowpad:id="0x7f0b00d3" glowpad:layout_width="-2" glowpad:layout_height="-2" glowpad:layout_marginRight="5dp" glowpad:src="0x7f0201a5" />
+                <com.devspark.robototextview.widget.RobotoTextView glowpad:textSize="0x7f090022" glowpad:textColor="0x7f08004a" glowpad:gravity="1" glowpad:id="0x7f0b00d4" glowpad:paddingTop="5dp" glowpad:paddingBottom="5dp" glowpad:layout_width="-1" glowpad:layout_height="-2" glowpad:text="0x7f0c02fc" glowpad:singleLine="true" glowpad:typeface="6" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

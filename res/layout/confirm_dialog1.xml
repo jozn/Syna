@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:orientation="1" app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-2" app:layout_margin="5dp">
+        <RelativeLayout app:orientation="0" app:id="0x7f0b00ee" app:layout_width="-1" app:layout_height="-2">
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b00ef" app:padding="15dp" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="0x7f0b00a3" app:layout_alignParentLeft="true" app:layout_centerVertical="true" app:typeface="4" />
+        </RelativeLayout>
+        <View app:background="0x7f080054" app:layout_width="-1" app:layout_height="1px" />
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+            <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:gravity="11" app:id="0x7f0b00f0" app:background="0x7f0203da" app:layout_width="-1" app:layout_height="-1" app:text="@r/ok" app:typeface="4" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

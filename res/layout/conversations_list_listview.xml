@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-1">
+    <ListView app:id="0x102000a" app:padding="3dp" app:fadingEdge="0" app:layout_width="-1" app:layout_height="-1" app:layout_marginLeft="3dp" app:layout_marginTop="3dp" app:layout_marginRight="3dp" app:cacheColorHint="@color/transparent" app:divider="0x7f020115" />
+    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090020" app:textColor="@r/text_color" app:gravity="11" app:id="0x1020004" app:layout_width="-1" app:layout_height="-1" app:text="0x7f0c02a4" app:typeface="12" />
+</FrameLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f0b00cd" app:layout_width="-1" app:layout_height="-1" app:src="0x7f0203e2" app:scaleType="1" />
+</LinearLayout>

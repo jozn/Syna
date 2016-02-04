@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="25">
+    <item android:state_selected="false" android:state_pressed="false" android:drawable="0x7f02016f" />
+    <item android:state_selected="false" android:state_pressed="true" android:drawable="0x7f02016e" />
+    <item android:state_selected="true" android:state_pressed="false" android:drawable="0x7f02016e" />
+    <item android:state_selected="true" android:state_pressed="true" android:drawable="0x7f02016e" />
+    <item android:drawable="0x7f02016f" />
+</selector>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:padding="5dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@r/image" android:layout_width="-2" android:layout_height="-2" android:scaleType="7" />
+</LinearLayout>

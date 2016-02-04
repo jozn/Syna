@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <FrameLayout app:id="0x7f0b01ed" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true" />
+    <com.astuetz.PagerSlidingTabStrip app:id="0x7f0b01ee" app:background="#ffffffff" app:layout_width="-1" app:layout_height="48dp" app:layout_below="0x7f0b01ed" app:pstsIndicatorColor="@r/my_blue" app:pstsUnderlineColor="@r/my_blue" app:pstsDividerColor="#00000000" app:pstsTabPaddingLeftRight="14dp" />
+    <android.support.v4.view.ViewPager app:id="0x7f0b00a6" app:layout_width="-1" app:layout_height="-2" app:layout_below="0x7f0b01ee" />
+</RelativeLayout>

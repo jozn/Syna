@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView autofit:background="0x7f08004a" autofit:paddingBottom="10dp" autofit:layout_width="-1" autofit:layout_height="-1">
+    <LinearLayout autofit:orientation="1" autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_marginLeft="10dp" autofit:layout_marginTop="10dp" autofit:layout_marginRight="10dp"
+        <LinearLayout autofit:gravity="11" autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_marginTop="10dp">
+            <include layout="0x7f030050" />
+        </LinearLayout>
+        <LinearLayout autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_marginTop="10dp">
+            <include layout="0x7f030051" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

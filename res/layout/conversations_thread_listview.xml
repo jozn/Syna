@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="0x7f0b0124" android:layout_width="-1" android:layout_height="-1">
+    <com.mmdt.syna.view.components.pulltorefresh.PullToRefreshListView android:id="0x7f0b0125" android:background="@color/transparent" android:paddingLeft="3dp" android:paddingTop="5dp" android:paddingRight="3dp" android:paddingBottom="3dp" android:fadingEdge="0" android:layout_width="-1" android:layout_height="-1" android:listSelector="@color/transparent" android:cacheColorHint="#00000000" android:divider="0x7f020372" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:smoothScrollbar="true" android:scrollbarDefaultDelayBeforeFade="3000" />
+</RelativeLayout>

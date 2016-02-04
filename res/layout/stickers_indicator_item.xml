@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/relativeLayout1" android:padding="2.5dp" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0.5dp" android:layout_marginRight="0.5dp">
+    <ImageButton android:id="@r/imageButton1" android:background="@color/transparent" android:clickable="false" android:layout_width="@r/sticker_indicator_item_size" android:layout_height="@r/sticker_indicator_item_size" android:scaleType="7" />
+</RelativeLayout>

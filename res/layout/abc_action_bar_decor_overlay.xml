@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.ActionBarOverlayLayout android:id="@r/action_bar_overlay_layout" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@r/action_bar_activity_content" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:layout_gravity="30" android:id="@r/top_action_bar" android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.internal.widget.ActionBarContainer android:gravity="30" android:id="@r/action_bar_container" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" style="?unknown_attr_ref: 7f01000b">
+            <android.support.v7.internal.widget.ActionBarView android:id="@r/action_bar" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f01000b" />
+            <android.support.v7.internal.widget.ActionBarContextView android:id="@r/action_context_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f01003a" />
+        </android.support.v7.internal.widget.ActionBarContainer>
+        <ImageView android:layout_width="-1" android:layout_height="-2" android:src="?unknown_attr_ref: 1010059" android:scaleType="1" />
+    </LinearLayout>
+    <android.support.v7.internal.widget.ActionBarContainer android:gravity="11" android:layout_gravity="50" android:id="@r/split_action_bar" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f01000c" />
+</android.support.v7.internal.widget.ActionBarOverlayLayout>

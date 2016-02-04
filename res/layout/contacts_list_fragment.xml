@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:orientation="1" app:id="0x7f0b00f7" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true" app:layout_centerHorizontal="true">
+        <com.devspark.robototextview.widget.RobotoEditText app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b00a8" app:visibility="1" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="15dp" app:layout_marginTop="10dp" app:layout_marginRight="15dp" app:hint="0x7f0c02ba" app:ems="10" app:singleLine="true" app:drawableLeft="0x7f020169" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" app:typeface="4" style="0x7f0d00b6">
+            <requestFocus />
+        </com.devspark.robototextview.widget.RobotoEditText>
+        <LinearLayout app:id="0x7f0b0108" app:visibility="0" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true">
+            <include layout="0x7f030043" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout app:id="0x7f0b00a9" app:layout_width="-1" app:layout_height="-2" app:layout_below="0x7f0b00f7" app:layout_alignParentBottom="true" />
+</RelativeLayout>

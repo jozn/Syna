@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="0x7f0b0108" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <include layout="0x7f030079" />
+    </LinearLayout>
+    <FrameLayout android:id="0x7f0b01a1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="1.5dp" android:layout_below="0x7f0b0108" android:layout_alignParentBottom="true" />
+</RelativeLayout>

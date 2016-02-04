@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="0x7f08006d" app:id="0x7f0b008b" app:background="0x7f0203da" app:paddingLeft="10dp" app:paddingTop="5dp" app:paddingRight="10dp" app:paddingBottom="5dp" app:layout_width="-1" app:layout_height="-2" app:text="Text" app:typeface="4" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="0x7f020399" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:orientation="1" android:background="0x7f02039a" android:layout_width="-1" android:layout_height="-2" android:layout_margin="5dp">
+        <TextView android:textSize="18sp" android:textColor="0x7f080047" android:id="0x7f0b008b" android:layout_width="-1" android:layout_height="-2" android:layout_margin="10dp" android:layout_alignParentTop="true" />
+        <EditText android:textColor="0x7f080047" android:id="0x7f0b0098" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:ems="10" android:layout_below="0x7f0b008b" style="0x7f0d00b6">
+            <requestFocus />
+        </EditText>
+        <LinearLayout android:orientation="0" android:id="0x7f0b0099" android:padding="3sp" android:layout_width="-1" android:layout_height="-2" android:layout_below="0x7f0b0098" android:layout_alignParentLeft="true">
+            <Button android:gravity="11" android:layout_gravity="1" android:id="0x7f0b009a" android:layout_width="-1" android:layout_height="40dp" android:text="OK" android:layout_weight="1.0" style="0x7f0d00a9" />
+            <View android:layout_width="3dp" android:layout_height="1dp" />
+            <Button android:gravity="11" android:layout_gravity="1" android:id="0x7f0b009b" android:layout_width="-1" android:layout_height="40dp" android:text="Cancel" android:layout_weight="1.0" style="0x7f0d00a9" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

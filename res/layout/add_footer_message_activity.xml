@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="0x7f0b00ac" android:background="@r/color_chooser_gray" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:orientation="1" android:id="0x7f0b00ad" android:layout_width="-1" android:layout_height="-2" android:layout_above="0x7f0b00ae">
+            <FrameLayout android:id="0x7f0b0085" android:layout_width="-1" android:layout_height="-2" android:layout_above="0x7f0b00af" android:layout_alignParentTop="true" />
+            <FrameLayout android:id="0x7f0b00af" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f0b00ae" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-3dp" android:layout_alignParentBottom="true">
+            <View android:background="0x7f0200ec" android:layout_width="-1" android:layout_height="3dp" />
+            <RelativeLayout android:id="0x7f0b00b0" android:background="0x7f08004a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+                <FrameLayout android:orientation="1" android:id="0x7f0b00b1" android:animationCache="true" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</AbsoluteLayout>

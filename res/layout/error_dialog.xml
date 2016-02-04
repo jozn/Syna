@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f0b0181" app:background="@r/my_yellow" app:layout_width="-1" app:layout_height="-2">
+    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="0x7f08004a" app:gravity="11" app:id="0x7f0b0182" app:padding="10dp" app:layout_width="-2" app:layout_height="-2" app:text="0x7f0c027a" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:typeface="6" />
+</RelativeLayout>

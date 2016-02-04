@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group>
+        <item android:icon="@r/ic_navigation_check" android:id="@r/menu_item_send_image" android:title="@r/menu_send_image" android:showAsAction="2" />
+        <item android:id="@r/menu_item_back_to_catroid" android:title="@r/menu_back" android:showAsAction="0" />
+        <item android:id="@r/menu_item_save_copy" android:title="@r/menu_export" android:showAsAction="0" />
+        <item android:id="@r/menu_item_new_image" android:title="@r/menu_new_image" android:showAsAction="0" />
+        <item android:id="@r/menu_item_load_image" android:title="@r/menu_load_image" android:showAsAction="0" />
+        <item android:id="@r/menu_item_hide_menu" android:title="@r/menu_hide_menu" android:showAsAction="0" />
+    </group>
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f0b019c" app:paddingLeft="10dp" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 101004d">
+    <ImageView app:orientation="0" app:id="0x7f0b019d" app:padding="3dp" app:layout_width="?unknown_attr_ref: 101004d" app:layout_height="?unknown_attr_ref: 101004d" app:src="0x7f02022d" app:scaleType="6" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="0x7f0d00b3" />
+    <LinearLayout app:orientation="1" app:id="0x7f0b019e" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_toLeftOf="0x7f0b008d" app:layout_toRightOf="0x7f0b019d" app:layout_centerVertical="true">
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="0x7f08006d" app:gravity="3" app:id="0x7f0b011d" app:layout_width="-1" app:layout_height="-2" app:text="Name" app:singleLine="true" app:typeface="4" />
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090026" app:textColor="0x7f08006d" app:id="0x7f0b011f" app:paddingRight="10dp" app:layout_width="-1" app:layout_height="-2" app:text="00989194090212" app:singleLine="true" app:typeface="14" />
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090026" app:textColor="0x7f08006d" app:id="0x7f0b011e" app:layout_width="-1" app:layout_height="-2" app:text="16:37" app:singleLine="true" app:typeface="14" />
+    </LinearLayout>
+    <RelativeLayout app:orientation="1" app:id="0x7f0b008d" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+        <ImageView app:orientation="0" app:id="0x7f0b019f" app:padding="2.5dp" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020174" app:layout_alignParentTop="true" />
+        <ImageView app:id="0x7f0b01a0" app:background="0x7f020243" app:layout_width="-2" app:layout_height="-2" app:layout_below="0x7f0b019f" app:layout_centerHorizontal="true" app:scaleX="0.5" app:scaleY="0.5" />
+    </RelativeLayout>
+</RelativeLayout>

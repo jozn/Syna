@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="message_activity_context_menu_items">
+        <item>دیدن</item>
+        <item>پاک کردن</item>
+    </string-array>
+    <string-array name="log_activity_context_menu_items">
+        <item>تماس</item>
+        <item>ارسال پیغام</item>
+        <item>حذف</item>
+    </string-array>
+    <string-array name="conversation_activity_context_menu_items">
+        <item>ارسال مجدد</item>
+        <item>ارسال به دیگری</item>
+        <item>کپی متن</item>
+        <item>حذف</item>
+        <item>دریافت این مجموعه شکلک</item>
+    </string-array>
+    <string-array name="language_selection_spinner_items">
+        <item>انگلیسی</item>
+    </string-array>
+    <string-array name="sticker_market_tabs">
+        <item>جدید</item>
+        <item>برتر</item>
+        <item>رایگان</item>
+        <item>دسته بندی ها</item>
+    </string-array>
+</resources>

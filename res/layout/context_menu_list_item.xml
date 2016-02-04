@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="0x7f0203da" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f0b00cd" app:visibility="1" app:layout_width="1dp" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="7.5dp" app:layout_marginBottom="7.5dp" app:src="0x7f0201ad" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="0x7f08006d" app:id="0x7f0b008b" app:paddingLeft="10dp" app:paddingTop="0dp" app:paddingRight="10dp" app:paddingBottom="0dp" app:layout_width="-2" app:layout_height="-2" app:text="Item Title" app:singleLine="true" app:layout_toRightOf="0x7f0b00cd" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:typeface="4" />
+    <View app:id="0x7f0b010e" app:background="0x7f080054" app:layout_width="-1" app:layout_height="1px" app:layout_below="0x7f0b00cd" />
+</RelativeLayout>

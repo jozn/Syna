@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f0b0117" app:background="0x7f08004a" app:clickable="true" app:layout_width="-1" app:layout_height="-1"
+    <RelativeLayout app:id="0x7f0b01ca" app:layout_width="-1" app:layout_height="-2" app:layout_centerInParent="true">
+        <com.mmdt.syna.view.conversation.conversationpage.pushtotalk.ProgressWheel app:id="0x7f0b01cb" app:layout_width="150dp" app:layout_height="150dp" app:layout_centerInParent="true" app:text="" app:textColor="#222222" app:textSize="14sp" app:barColor="@r/my_blue" app:rimColor="#00000000" app:rimWidth="25dp" app:spinSpeed="3dp" app:barWidth="25dp" app:barLength="60dp" />
+        <ImageView app:id="0x7f0b01cc" app:visibility="0" app:layout_width="130dp" app:layout_height="130dp" app:src="0x7f020248" app:scaleType="7" app:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090021" app:textColor="0x7f080009" app:id="0x7f0b01cd" app:visibility="1" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="5dp" app:text="0x7f0c0306" app:layout_alignParentRight="true" app:layout_alignParentBottom="true" app:typeface="6" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@r/icon_menu_tools" android:persistent="false" android:key="preference_tools_key">
+    <CheckBoxPreference android:icon="@r/icon_menu_brush" android:title="@r/button_brush" android:key="@r/button_brush" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_cursor" android:title="@r/button_cursor" android:key="@r/button_cursor" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_pipette" android:title="@r/button_pipette" android:key="@r/button_pipette" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_stamp" android:title="@r/button_stamp" android:key="@r/button_stamp" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_rectangle" android:title="@r/button_rectangle" android:key="@r/button_rectangle" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_import_image" android:title="@r/button_import_image" android:key="@r/button_import_image" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_crop" android:title="@r/button_crop" android:key="@r/button_crop" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_eraser" android:title="@r/button_eraser" android:key="@r/button_eraser" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_flip_horizontal" android:title="@r/button_flip" android:key="@r/button_flip" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_bucket" android:title="@r/button_fill" android:key="@r/button_fill" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_zoom" android:title="@r/button_zoom" android:key="@r/button_zoom" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_move" android:title="@r/button_move" android:key="@r/button_move" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_undo" android:title="@r/button_undo" android:key="@r/button_undo" android:defaultValue="true" />
+    <CheckBoxPreference android:icon="@r/icon_menu_redo" android:title="@r/button_redo" android:key="@r/button_redo" android:defaultValue="true" />
+</PreferenceScreen>

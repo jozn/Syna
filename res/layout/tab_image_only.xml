@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingBottom="2dp" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_gravity="11" android:id="@r/tab_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="6dp" />
+    <LinearLayout android:background="@r/tab_background_selector" android:layout_width="-1" android:layout_height="6dp" /> />

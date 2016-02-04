@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x7f0201e0" android:id="0x7f0b0216" android:title="0x7f0c02bd" android:showAsAction="1" />
+    <item android:icon="0x7f020184" android:id="0x7f0b0217" android:title="0x7f0c02be" android:showAsAction="1" />
+</menu>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView android:id="@r/gridview_tools_menu" android:layout_width="-1" android:layout_height="-2" android:listSelector="@r/attribute_button_selector" android:stretchMode="2" android:numColumns="2" />

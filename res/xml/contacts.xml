@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsSource>
+    <ContactsDataKind android:icon="@r/ic_launcher" android:mimeType="vnd.android.cursor.item/vnd.com.mmdt.sync.profile" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true" />
+</ContactsSource>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout autofit:orientation="1" autofit:layout_width="-1" autofit:layout_height="-2"
+    <LinearLayout autofit:orientation="0" autofit:id="0x7f0b012a" autofit:layout_width="-1" autofit:layout_height="-2">
+        <RelativeLayout autofit:gravity="10" autofit:id="0x7f0b012b" autofit:background="0x7f0200fd" autofit:padding="10dp" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0">
+            <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c0308" autofit:singleLine="true" autofit:layout_below="0x7f0b00cd" autofit:layout_centerVertical="true" autofit:typeface="12" />
+            <ImageView autofit:id="0x7f0b00cd" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f0201d3" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout autofit:gravity="10" autofit:id="0x7f0b012c" autofit:background="0x7f0200fd" autofit:padding="10dp" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0">
+            <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c0309" autofit:singleLine="true" autofit:layout_below="0x7f0b012d" autofit:layout_centerVertical="true" autofit:typeface="12" />
+            <ImageView autofit:id="0x7f0b012d" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f020172" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View autofit:layout_width="-1" autofit:layout_height="20dp" />
+</LinearLayout>

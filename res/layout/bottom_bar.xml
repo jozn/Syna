@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@r/layout_bottom_bar" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="-1" android:layout_height="50dp" android:weightSum="3.0">
+    <ImageButton android:id="@r/btn_bottom_attribute1" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" android:src="@r/icon_menu_strokes" android:layout_weight="1.0" />
+    <ImageButton android:id="@r/btn_bottom_attribute2" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" android:src="@r/icon_menu_color_palette" android:layout_weight="1.0" />
+    <ImageButton android:id="@r/btn_bottom_tools" android:background="@color/transparent" android:layout_width="-1" android:layout_height="-1" android:src="@r/icon_menu_tools" android:layout_weight="1.0" />
+</LinearLayout>

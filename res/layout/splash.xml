@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:theme="@*app:style/Theme.Holo.NoActionBar" app:orientation="1" app:background="0x1060019" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:gravity="1" app:background="#a8e3ff" app:paddingTop="80dp" app:layout_width="-1" app:layout_height="-1" app:layout_weight="1.0">
+        <ImageView app:id="0x7f0b0086" app:paddingBottom="30dp" app:layout_width="150dp" app:layout_height="150dp" app:layout_marginTop="32dp" app:src="0x7f020376" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+        <TextView app:textAppearance="?unknown_attr_ref: 1010040" app:textColor="0x7f080046" app:id="0x7f0b01e3" app:layout_width="-2" app:layout_height="-2" app:text="     " app:layout_below="0x7f0b0086" app:layout_centerHorizontal="true" />
+        <TextView app:textAppearance="?unknown_attr_ref: 1010040" app:textColor="0x7f080046" app:id="0x7f0b01e4" app:layout_width="-2" app:layout_height="-2" app:text="www.syna-app.ir" app:layout_below="0x7f0b01e3" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout autofit:orientation="0" autofit:background="0x7f08004a" autofit:layout_width="-1" autofit:layout_height="-1">
+    <RelativeLayout autofit:gravity="11" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_weight="1.0">
+        <include autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_centerInParent="true" layout="0x7f030050" />
+    </RelativeLayout>
+    <RelativeLayout autofit:gravity="10" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-1" autofit:layout_weight="1.0">
+        <include layout="0x7f030051" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView autofit:layout_width="-1" autofit:layout_height="-2">
+    <LinearLayout autofit:orientation="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp"
+        <LinearLayout autofit:orientation="0" autofit:layout_width="-1" autofit:layout_height="-2">
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onTakePhoto">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c030a" autofit:singleLine="true" autofit:layout_below="0x7f0b00cd" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b00cd" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f020217" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onChoosePhoto">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c030c" autofit:singleLine="true" autofit:layout_below="0x7f0b0187" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b0187" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f0201f8" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout autofit:orientation="0" autofit:layout_width="-1" autofit:layout_height="-2">
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onTakeVideo">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c030d" autofit:singleLine="true" autofit:layout_below="0x7f0b0188" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b0188" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f02021a" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onChooseVideo">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c030e" autofit:singleLine="true" autofit:layout_below="0x7f0b0189" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b0189" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f0201fb" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout autofit:orientation="0" autofit:layout_width="-1" autofit:layout_height="-2">
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onAudio">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c0310" autofit:singleLine="true" autofit:layout_below="0x7f0b018a" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b018a" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f0201f2" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout autofit:gravity="10" autofit:background="0x7f0200fd" autofit:padding="5dp" autofit:visibility="2" autofit:clickable="true" autofit:layout_width="-1" autofit:layout_height="-2" autofit:layout_margin="5dp" autofit:layout_weight="1.0" autofit:onClick="onDrawDoodle">
+                <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="1" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c030f" autofit:singleLine="true" autofit:layout_below="0x7f0b018b" autofit:layout_centerVertical="true" autofit:typeface="12" />
+                <ImageView autofit:id="0x7f0b018b" autofit:layout_width="-2" autofit:layout_height="-2" autofit:src="0x7f0201b4" autofit:layout_alignParentTop="true" autofit:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View autofit:layout_width="-1" autofit:layout_height="10dp" />
+    </LinearLayout>
+</ScrollView>

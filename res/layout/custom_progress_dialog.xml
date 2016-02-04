@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2">
+    <ProgressBar android:id="@r/progressBar" android:background="0x106000d" android:layout_width="-2" android:layout_height="-2" android:indeterminateOnly="true" android:layout_centerInParent="true" style="?unknown_attr_ref: 101007a" />
+</RelativeLayout>

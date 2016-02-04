@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="0x7f0b0103" android:tag="back" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="0x7f0b0105" android:background="0x7f080050" android:layout_width="-1" android:layout_height="30dp">
+        <TextView android:textSize="15sp" android:textColor="0x7f08004a" android:gravity="13" android:layout_gravity="10" android:id="0x7f0b0107" android:paddingLeft="50dp" android:layout_width="-1" android:layout_height="-1" android:text="Home" />
+    </LinearLayout>
+</FrameLayout>

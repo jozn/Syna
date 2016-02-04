@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@r/app_name" android:icon="@r/ic_launcher" android:accountType="0x7f0c0382" android:smallIcon="@r/ic_launcher" />

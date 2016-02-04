@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/main_layout" android:layout_width="-1" android:layout_height="-1">
+    <org.catrobat.paintroid.ui.DrawingSurface android:id="@r/drawingSurfaceView" android:layout_width="-1" android:layout_height="-1" android:layout_above="@r/main_bottom_bar" android:layout_alignParentTop="true" />
+    <LinearLayout android:id="@r/main_bottom_bar" android:background="@r/custom_background_color" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentBottom="true">
+        <include layout="@r/bottom_bar" />
+    </LinearLayout>
+</RelativeLayout>

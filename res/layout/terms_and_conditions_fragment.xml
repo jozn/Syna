@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:orientation="1" app:paddingTop="30dp" app:layout_width="-1" app:layout_height="-1">
+        <ImageView app:id="0x7f0b00cd" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020376" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="20dp" app:layout_below="0x7f0b00cd">
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090022" app:textColor="@r/text_color" app:textColorLink="0x7f080009" app:id="0x7f0b008b" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="10dp" app:layout_marginRight="10dp" app:text="To register in SYNA you have read and accept our Terms and Conditions and Privacy Policy." app:layout_alignLeft="0x7f0b00da" app:layout_alignParentTop="true" app:typeface="4" />
+            <com.devspark.robototextview.widget.RobotoCheckBox app:textSize="0x7f090022" app:textColor="@r/text_color" app:id="0x7f0b00da" app:layout_width="-2" app:layout_height="-2" app:layout_margin="10dp" app:text="0x7f0c033e" app:layout_below="0x7f0b008b" app:layout_alignParentLeft="true" app:typeface="12" style="0x7f0d00b8" />
+            <RelativeLayout app:id="0x7f0b01f5" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="10dp" app:layout_marginBottom="10dp" app:layout_below="0x7f0b00da" app:layout_alignParentLeft="true">
+                <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:id="0x7f0b0091" app:background="0x7f0200fd" app:paddingLeft="12.5dp" app:paddingRight="12.5dp" app:layout_width="-2" app:layout_height="40dp" app:layout_marginRight="30dp" app:text="0x7f0c02dd" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:typeface="6" style="0x7f0d00a9" />
+                <View app:layout_width="-1" app:layout_height="30dp" app:layout_below="0x7f0b0091" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

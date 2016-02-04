@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="0x7f0b00ac" android:background="0x7f020112" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1"
+        <RelativeLayout android:orientation="1" android:id="0x7f0b00ad" android:layout_width="-1" android:layout_height="-2" android:layout_above="0x7f0b00ae">
+            <FrameLayout android:id="0x7f0b010f" android:layout_width="-1" android:layout_height="-2" android:layout_above="0x7f0b00af" android:layout_alignParentTop="true" />
+            <RelativeLayout android:id="0x7f0b0110" android:background="0x7f02039c" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="0x7f090037" android:layout_above="0x7f0b00af" android:layout_centerHorizontal="true" android:onClick="OnNewMessageClick">
+                <LinearLayout android:orientation="0" android:paddingLeft="0x7f090036" android:paddingTop="0x7f09002f" android:paddingBottom="0x7f09002f" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+                    <com.devspark.robototextview.widget.RobotoTextView android:textColor="0x7f08004a" android:id="0x7f0b0111" android:layout_width="-2" android:layout_height="-2" android:text="..." />
+                    <ImageView android:id="0x7f0b0112" android:layout_width="24dp" android:layout_height="24dp" android:src="0x7f0200d6" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="0x7f0b0113" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f09002a" android:layout_above="0x7f0b00af">
+                <View android:id="@r/triangle" android:background="0x7f02028d" android:layout_width="0x7f090037" android:layout_height="0x7f090037" android:layout_marginTop="0x7f09002f" />
+                <com.devspark.robototextview.widget.RobotoTextView android:textColor="0x7f08004a" android:id="0x7f0b0114" android:background="0x7f02039b" android:paddingLeft="0x7f090037" android:paddingTop="0x7f09002f" android:paddingRight="0x7f090037" android:paddingBottom="0x7f09002f" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="-2dp" android:text="..." android:layout_toRightOf="@r/triangle" />
+            </RelativeLayout>
+            <FrameLayout android:id="0x7f0b00af" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f0b00ae" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="-3dp" android:layout_alignParentBottom="true">
+            <View android:background="0x7f0200ec" android:layout_width="-1" android:layout_height="3dp" />
+            <RelativeLayout android:id="0x7f0b0115" android:background="0x7f08004a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+                <FrameLayout android:orientation="1" android:id="0x7f0b0116" android:animationCache="true" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="0x7f0b00b0" android:background="0x7f08004a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+                <FrameLayout android:orientation="1" android:id="0x7f0b00b1" android:animationCache="true" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="0x7f0b0117" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="3dp">
+                <FrameLayout android:id="0x7f0b0118" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</AbsoluteLayout>

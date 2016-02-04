@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dial_min_text_size">10.0sp</dimen>
+    <dimen name="spinner_min_text_size">4.0sp</dimen>
+    <dimen name="credit_balance_min_text_size">10.0sp</dimen>
+</resources>

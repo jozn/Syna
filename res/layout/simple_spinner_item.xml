@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout autofit:gravity="10" autofit:orientation="0" autofit:layout_width="-1" autofit:layout_height="-1">
+    <ImageView autofit:id="0x7f0b01e2" autofit:background="@color/transparent" autofit:paddingTop="2.5dp" autofit:paddingBottom="2.5dp" autofit:layout_width="-2" autofit:layout_height="30dp" autofit:layout_marginLeft="5dp" autofit:layout_marginRight="5dp" autofit:src="@r/large_flag_us" autofit:scaleType="7" autofit:layout_centerVertical="true" />
+    <me.grantland.widget.AutofitTextView autofit:textSize="0x7f090022" autofit:textColor="0x7f08006d" autofit:gravity="3" autofit:id="0x7f0b019b" autofit:layout_width="-2" autofit:layout_height="-1" autofit:singleLine="true" autofit:layout_toRightOf="0x7f0b01e2" autofit:layout_alignParentRight="true" autofit:layout_centerVertical="true" autofit:typeface="4" autofit:minTextSize="0x7f09003a" />
+</RelativeLayout>

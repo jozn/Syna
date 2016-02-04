@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="0x7f0b0126" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="0x7f0b0085" android:layout_width="-1" android:layout_height="-1" />
+</android.support.v4.widget.SwipeRefreshLayout>

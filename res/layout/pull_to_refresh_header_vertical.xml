@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout app:id="0x7f0b01c5" app:paddingLeft="0x7f090030" app:paddingTop="0x7f090031" app:paddingRight="0x7f090030" app:paddingBottom="0x7f090031" app:layout_width="-1" app:layout_height="-2"
+        <FrameLayout app:layout_gravity="13" app:layout_width="-2" app:layout_height="-2">
+            <ImageView app:layout_gravity="11" app:id="0x7f0b01c6" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" />
+            <ProgressBar app:layout_gravity="11" app:id="0x7f0b01c7" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:indeterminate="true" style="?unknown_attr_ref: 1010079" />
+        </FrameLayout>
+        <LinearLayout app:gravity="1" app:layout_gravity="11" app:orientation="1" app:layout_width="-2" app:layout_height="-2">
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090024" app:textColor="0x7f080053" app:id="0x7f0b01c8" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:typeface="4" />
+            <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090024" app:textColor="0x7f080053" app:id="0x7f0b01c9" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:typeface="4" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

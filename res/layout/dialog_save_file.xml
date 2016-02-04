@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textStyle="1" android:textColor="@r/text_color" android:id="@r/dialog_save_file_message" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:text="@r/dialog_save_text" android:textAllCaps="true" />
+    <View android:background="@r/dialog_subtitle_border" android:layout_width="-1" android:layout_height="2dp" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" />
+    <EditText android:textSize="18sp" android:textColor="@r/dialog_edittext_color" android:textColorHint="@r/dialog_edittext_color_hint" android:id="@r/dialog_save_file_edit_text" android:layout_width="-1" android:layout_height="-2" android:inputType="1" android:textCursorDrawable="@r/dialog_edittext_color" />
+</LinearLayout>

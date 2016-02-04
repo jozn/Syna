@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="0x7f0b01ce" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentTop="true">
+        <FrameLayout android:layout_width="-1" android:layout_height="0dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <FrameLayout android:id="0x7f0b0085" android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="10dp" />
+</RelativeLayout>

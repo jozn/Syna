@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="0x7f08004a" android:layout_width="-1" android:layout_height="-1" android:weightSum="100.0">
+    <LinearLayout android:orientation="1" android:id="0x7f0b008d" android:layout_width="-2" android:layout_height="-2">
+        <ImageView android:id="0x7f0b00cd" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:src="0x7f0200f3" android:scaleType="1" android:adjustViewBounds="true" android:layout_weight="75.0" />
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="-10dp" android:layout_marginRight="10dp">
+            <ImageButton android:id="0x7f0b01b8" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="32dp" android:src="0x7f02018b" android:layout_weight="1.0" android:onClick="onImageTransaction" />
+            <View android:background="0x7f080054" android:layout_width="-1" android:layout_height="1px" />
+            <ImageButton android:id="0x7f0b01b9" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="32dp" android:src="0x7f0201a2" android:layout_weight="1.0" android:onClick="onImageTransaction" />
+            <View android:id="0x7f0b01bb" android:background="0x7f080054" android:layout_width="-1" android:layout_height="1px" />
+            <ImageButton android:id="0x7f0b01ba" android:background="0x7f0203da" android:layout_width="-1" android:layout_height="32dp" android:src="0x7f02019b" android:layout_weight="1.0" android:onClick="onImageTransaction" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="0x7f0b00b2" android:paddingBottom="10dp" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="0x7f0b008d" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+            <include layout="0x7f03007f" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

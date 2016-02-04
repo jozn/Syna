@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.internal.widget.LinearLayoutICS android:layout_gravity="11" android:id="@r/activity_chooser_view_content" android:layout_width="-2" android:layout_height="-1" style="?unknown_attr_ref: 7f01006c">
+    <include layout="@r/abc_activity_chooser_view_include" />
+</android.support.v7.internal.widget.LinearLayoutICS>

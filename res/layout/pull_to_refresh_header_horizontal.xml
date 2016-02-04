@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout android:id="0x7f0b01c5" android:paddingLeft="0x7f090030" android:paddingTop="0x7f090031" android:paddingRight="0x7f090030" android:paddingBottom="0x7f090031" android:layout_width="-2" android:layout_height="-1">
+        <ImageView android:layout_gravity="11" android:id="0x7f0b01c6" android:layout_width="-2" android:layout_height="-2" />
+        <ProgressBar android:layout_gravity="11" android:id="0x7f0b01c7" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:indeterminate="true" style="?unknown_attr_ref: 1010079" />
+    </FrameLayout>
+</merge>

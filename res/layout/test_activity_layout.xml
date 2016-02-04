@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout autofit:orientation="1" autofit:layout_width="-1" autofit:layout_height="-1">
+    <me.grantland.widget.AutofitTextView autofit:textSize="84sp" autofit:textColor="@r/text_color" autofit:gravity="11" autofit:id="0x7f0b0128" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="1900" autofit:singleLine="true" autofit:typeface="12" autofit:minTextSize="20sp" autofit:sizeToFit="true" />
+</LinearLayout>

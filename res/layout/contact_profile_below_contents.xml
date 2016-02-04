@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:id="0x7f0b00f6" app:background="0x7f08004a" app:paddingLeft="0dp" app:paddingTop="20dp" app:paddingRight="0dp" app:paddingBottom="10dp" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:id="0x7f0b00f7" app:background="0x7f08004a" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true">
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="13sp" app:textColor="@r/text_color" app:paddingLeft="20dp" app:paddingTop="0dp" app:paddingRight="20dp" app:paddingBottom="0dp" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0c0307" app:singleLine="true" app:typeface="4" />
+        <com.devspark.robototextview.widget.RobotoTextView app:textSize="24sp" app:textColor="@r/text_color" app:id="0x7f0b00f8" app:paddingLeft="20dp" app:paddingTop="0dp" app:paddingRight="20dp" app:paddingBottom="10dp" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0c0305" app:singleLine="true" app:typeface="4" />
+        <LinearLayout app:orientation="0" app:id="0x7f0b00f9" app:paddingTop="0dp" app:paddingBottom="10dp" app:focusableInTouchMode="false" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginRight="10dp">
+            <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:id="0x7f0b00a5" app:background="0x7f0203da" app:paddingLeft="10dp" app:layout_width="-1" app:layout_height="-2" app:text="0x7f0c0304" app:drawableLeft="0x7f020175" app:layout_weight="1.0" app:onClick="onFreeCallClicked" app:typeface="4" />
+            <View app:background="0x7f080054" app:layout_width="1px" app:layout_height="-1" app:layout_marginTop="5dp" app:layout_marginBottom="5dp" />
+            <com.devspark.robototextview.widget.RobotoButton app:textSize="0x7f090022" app:textColor="0x7f08006d" app:gravity="11" app:id="0x7f0b00fa" app:background="0x7f0203da" app:paddingLeft="10dp" app:layout_width="-1" app:layout_height="-2" app:text="@string/chat" app:drawableLeft="0x7f020203" app:layout_weight="1.0" app:onClick="onChatClicked" app:typeface="4" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f0b00fb" app:paddingTop="0dp" app:paddingBottom="20dp" app:layout_width="-1" app:layout_height="-2" app:layout_below="0x7f0b00f7" />
+</RelativeLayout>

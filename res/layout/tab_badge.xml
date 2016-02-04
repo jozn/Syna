@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout autofit:layout_width="-1" autofit:layout_height="-1">
+    <ImageView autofit:gravity="11" autofit:id="@r/tab_icon" autofit:layout_width="-2" autofit:layout_height="-2" autofit:layout_centerInParent="true" autofit:contentDescription="TODO" />
+    <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="10sp" autofit:textColor="0x7f08004a" autofit:gravity="11" autofit:id="0x7f0b01f4" autofit:background="0x7f0200f6" autofit:padding="2.5dp" autofit:layout_width="20dp" autofit:layout_height="20dp" autofit:layout_marginTop="2.5dp" autofit:text="2" autofit:layout_alignParentTop="true" autofit:layout_alignParentRight="true" autofit:typeface="6" />
+</RelativeLayout>

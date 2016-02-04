@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout autofit:layout_width="-1" autofit:layout_height="-1"
+    <RelativeLayout autofit:id="0x7f0b0127" autofit:background="0x7f02010e" autofit:padding="10dp" autofit:layout_width="250dp" autofit:layout_height="250dp" autofit:layout_centerInParent="true">
+        <LinearLayout autofit:orientation="0" autofit:id="0x7f0b0099" autofit:layout_width="-2" autofit:layout_height="-2" autofit:layout_centerInParent="true">
+            <me.grantland.widget.AutofitTextView autofit:textSize="84sp" autofit:textColor="@r/text_color" autofit:gravity="11" autofit:id="0x7f0b0128" autofit:paddingLeft="10dp" autofit:paddingRight="10dp" autofit:layout_width="-2" autofit:layout_height="-2" autofit:text="1900.99" autofit:singleLine="true" autofit:typeface="12" autofit:minTextSize="0x7f09003b" />
+        </LinearLayout>
+        <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="@r/text_color" autofit:id="0x7f0b00d8" autofit:layout_width="-2" autofit:layout_height="-2" autofit:text="0x7f0c0301" autofit:layout_below="0x7f0b0099" autofit:layout_centerHorizontal="true" autofit:typeface="12" />
+        <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="11sp" autofit:textColor="@r/text_color" autofit:id="0x7f0b0129" autofit:layout_width="-2" autofit:layout_height="-2" autofit:layout_marginBottom="-10dp" autofit:text="0x7f0c0300" autofit:layout_above="0x7f0b0099" autofit:layout_centerHorizontal="true" autofit:typeface="12" />
+        <com.devspark.robototextview.widget.RobotoTextView autofit:textSize="0x7f090022" autofit:textColor="@r/text_color" autofit:gravity="1" autofit:id="0x7f0b008b" autofit:paddingLeft="10dp" autofit:paddingRight="10dp" autofit:layout_width="-1" autofit:layout_height="-2" autofit:text="0x7f0c02ff" autofit:layout_above="0x7f0b0129" autofit:typeface="4" />
+    </RelativeLayout>
+</RelativeLayout>

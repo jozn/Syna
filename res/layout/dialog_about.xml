@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="300dp">
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@r/about_scroll_view" android:scrollbars="200" android:layout_width="-1" android:layout_height="252dp" android:scrollbarFadeDuration="99999">
+        <LinearLayout android:gravity="1" android:orientation="1" android:padding="10dp" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:id="@r/about_iview_Title" android:background="@r/ic_launcher" android:layout_width="-2" android:layout_height="-2" />
+            <TextView android:textSize="8sp" android:textColor="@r/text_color" android:gravity="11" android:id="@r/dialog_about_version_name_text_view" android:layout_width="-1" android:layout_height="-1" />
+            <TextView android:textColor="@r/text_color" android:gravity="11" android:id="@r/about_tview_Text" android:layout_width="-2" android:layout_height="-2" android:text="@r/about_content" />
+            <TextView android:textSize="20sp" android:textColorLink="#e68b00" android:gravity="11" android:id="@r/about_tview_Url" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

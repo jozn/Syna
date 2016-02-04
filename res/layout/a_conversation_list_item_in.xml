@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:background="0x7f020114" app:layout_width="-1" app:layout_height="-2"
+    <RelativeLayout app:orientation="1" app:id="0x7f0b0049" app:layout_width="-2" app:layout_height="-2">
+        <ImageView app:id="0x7f0b004a" app:paddingLeft="5dp" app:paddingTop="15dp" app:layout_width="40dp" app:layout_height="55dp" app:src="0x7f02022c" app:scaleType="3" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+        <ImageView app:id="0x7f0b004b" app:layout_width="20dp" app:layout_height="20dp" app:layout_marginLeft="-10dp" app:layout_marginTop="20dp" app:src="0x7f020371" app:layout_toRightOf="0x7f0b004a" app:layout_alignTop="0x7f0b004c" />
+        <LinearLayout app:gravity="15" app:orientation="0" app:id="0x7f0b004c" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="0x7f0b004b">
+            <RelativeLayout app:id="0x7f0b004d" app:background="0x7f020389" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="7.5dp" app:layout_marginRight="5dp" app:layout_marginBottom="7.5dp" app:minWidth="100dp" app:layout_weight="1.0">
+                <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b004e" app:paddingLeft="5dp" app:paddingRight="5dp" app:paddingBottom="0dp" app:layout_width="-2" app:layout_height="-2" app:text="Author in Group" app:singleLine="false" app:layout_alignParentTop="true" app:typeface="4" />
+                <LinearLayout app:orientation="0" app:id="0x7f0b004f" app:paddingLeft="5dp" app:paddingTop="5dp" app:paddingRight="7dp" app:layout_width="-2" app:layout_height="-2" app:layout_below="0x7f0b004e" />
+                <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b0050" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-2" app:text="date_textView" app:singleLine="false" app:layout_below="0x7f0b004f" app:typeface="4" />
+                <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b0051" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-2" app:text="binded message" app:singleLine="false" app:layout_below="0x7f0b0050" app:typeface="4" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout app:orientation="1" app:id="0x7f0b0052" app:visibility="2" app:layout_width="-2" app:layout_height="-2">
+        <ImageView app:id="0x7f0b0053" app:paddingTop="15dp" app:paddingRight="5dp" app:layout_width="40dp" app:layout_height="55dp" app:src="0x7f02022c" app:scaleType="3" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+        <LinearLayout app:gravity="15" app:id="0x7f0b0054" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="0x7f0b0055">
+            <ImageView app:id="0x7f0b0056" app:background="0x7f0200e8" app:padding="2.5dp" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="0dp" />
+            <RelativeLayout app:id="0x7f0b0057" app:background="0x7f02038b" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:layout_marginTop="7.5dp" app:layout_marginBottom="7.5dp" app:minWidth="100dp">
+                <LinearLayout app:orientation="0" app:id="0x7f0b0058" app:paddingLeft="5dp" app:paddingTop="5dp" app:paddingRight="7dp" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentTop="true" />
+                <LinearLayout app:gravity="10" app:id="0x7f0b0059" app:layout_width="-2" app:layout_height="-2" app:layout_below="0x7f0b0058">
+                    <ImageView app:id="0x7f0b005a" app:layout_width="-2" app:layout_height="-2" app:src="0x7f020229" />
+                    <ProgressBar app:id="0x7f0b005b" app:visibility="0" app:layout_width="-2" app:layout_height="-2" style="?unknown_attr_ref: 1010079" />
+                    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b005c" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-2" app:text="11/13/2012" app:singleLine="false" app:typeface="4" />
+                </LinearLayout>
+                <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b005d" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-2" app:text="message_textView_out" app:singleLine="false" app:layout_below="0x7f0b0059" app:typeface="4" />
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView app:id="0x7f0b0055" app:layout_width="20dp" app:layout_height="20dp" app:layout_marginLeft="-2.5dp" app:layout_marginTop="20dp" app:layout_marginRight="-10dp" app:src="0x7f0203d6" app:layout_toLeftOf="0x7f0b0053" app:layout_alignTop="0x7f0b0054" />
+    </RelativeLayout>
+    <RelativeLayout app:orientation="1" app:id="0x7f0b005e" app:visibility="0" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:gravity="15" app:id="0x7f0b005f" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true">
+            <RelativeLayout app:id="0x7f0b0060" app:background="0x7f02038a" app:padding="5dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:layout_marginTop="7.5dp" app:layout_marginRight="5dp" app:layout_marginBottom="7.5dp" app:minWidth="100dp">
+                <LinearLayout app:orientation="0" app:id="0x7f0b0061" app:paddingLeft="5dp" app:paddingTop="5dp" app:paddingRight="7dp" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentTop="true">
+                    <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:paddingLeft="5dp" app:paddingRight="5dp" app:paddingBottom="0dp" app:layout_width="-2" app:layout_height="-2" app:text="Call Duration   18:16" app:singleLine="false" app:typeface="4" />
+                </LinearLayout>
+                <com.devspark.robototextview.widget.RobotoTextView app:textSize="0x7f090027" app:textColor="@r/text_color" app:id="0x7f0b0062" app:paddingLeft="5dp" app:paddingRight="5dp" app:layout_width="-2" app:layout_height="-2" app:text="12:04" app:singleLine="false" app:layout_below="0x7f0b0061" app:typeface="4" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
